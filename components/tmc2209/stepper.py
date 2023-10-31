@@ -85,4 +85,4 @@ def to_code(config):
         sleep_pin = yield cg.gpio_pin_expression(config[CONF_SLEEP_PIN])
         cg.add(var.set_sleep_pin(sleep_pin))
 
-    cg.add_library("teemuatlut/TMCStepper", "0.7.1")
+    cg.add_library("teemuatlut/TMCStepper", "0.7.3")
